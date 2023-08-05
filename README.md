@@ -26,6 +26,6 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 ### Deploy Link
-Deploy - https://64cdc0848bc4d004ea65135b--harmonious-gumdrop-4955a8.netlify.app/
+Deploy - https://64cdc0848bc4d004ea65135b--harmonious-gumdrop-4955a8.netlify.app/ \
 Please refer the above link for demo
 
