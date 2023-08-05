@@ -1,0 +1,44 @@
+.filter-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left select {
+    padding: 8px 3px;
+    text-align: center;
+    border: none;
+    background: #e2e0e08c;
+    margin: 10px 15px;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+}
+
+.left button {
+    padding: 8px 8px;
+    text-align: center;
+    border: none;
+    background: #e2e0e08c;
+    margin: 10px 15px;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+}
+
+.right select {
+    padding: 8px 3px;
+    text-align: center;
+    border: 1px solid grey;
+    background: #fff;
+    margin: 10px 15px;
+    border-radius: 50px;
+    outline: none;
+    cursor: pointer;
+}

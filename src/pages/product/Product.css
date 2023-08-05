@@ -1,0 +1,91 @@
+.product-container{
+    width: 90%;
+    margin: 0px auto;
+    display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+
+.loc{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: grey;
+}
+.last-s{
+    color: black;
+    font-weight: 500;
+}
+
+.game-img{
+    border-radius: 10px;
+    width: 90%;
+    height: 400px;
+}
+
+.right-sec{
+    padding-right: 100px;
+    text-align: justify;
+}
+.right-sec .desc{
+    color: rgb(98, 98, 98);
+    font-size: 14px;
+}
+/* .rate{
+    display: flex;
+    align-items: center;
+} */
+.star-des{
+    color: rgb(0, 218, 0);
+}
+
+.rate > p{
+    font-size: 13px;
+}
+
+.rate{
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+.price-know{
+    border-bottom: 1px solid rgb(212, 212, 212);
+    text-align: center;
+}
+
+.buttons{
+display: flex;
+margin-top: 20px;
+justify-content: space-around;
+transition: all 3s ease;
+}
+
+.buttons .proceed{
+    padding: 8px 40px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    background-color: var(--primary-color);
+    border: 1px solid black;
+    outline: none;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.buttons .cancel{
+    padding: 8px 40px;
+    border-radius: 50px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.proceed:hover,.proceed::selection{
+    background-color: darkgreen;
+}
+
+.cancel:hover{
+    background-color: rgb(239, 239, 239);
+    
+}

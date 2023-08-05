@@ -1,0 +1,156 @@
+.nav-container {
+    /* border: 1px solid red; */
+    width: 100%;
+    font-size: 12px;
+    font-family: var(--common-font);
+
+}
+
+@keyframes add-glow {
+    0%{
+        background-color: green;
+    }
+    50%{
+        background-color: var(--primary-color);
+    }
+    100%{
+        background-color: green;
+    }
+}
+
+.upper-nav {
+    height: 30px;
+    background-color: var(--primary-color);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    animation: add-glow 2s linear infinite alternate;
+}
+
+.contact {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.discount {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.lan-loc {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.language,
+.location {
+    color: #fff;
+    background-color: var(--primary-color);
+    padding: 2px;
+    border: none;
+    outline: none;
+}
+
+.lower-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.brand {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.logo-name:hover{
+    background-color: #dddddd;
+}
+
+.logo-name {
+    color: var(--primary-color);
+    font-weight: 900;
+}
+
+.mid-left {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    font-size: 15px;
+}
+
+.mid-left a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.categories {
+    border: none;
+    outline: none;
+    /* font-weight: bold; */
+    font-size: 15px;
+}
+
+.categories:hover{
+    background-color: #dddddd;
+}
+
+.form {
+    width: 20%;
+    flex-grow: 1;
+    padding: 0px 12px;
+    position: relative;
+}
+
+.form input{
+    min-width: 90%;
+    margin: 0;
+    padding: 8px 10px 8px 32px;
+    font-size: 13px;
+    /* border: solid 1px #0000003e; */
+    border: none;
+    border-radius: 25px;
+    background-color: #f0f0f0;
+
+}
+
+.mid-left a:hover{
+    background-color: #dddddd;
+}
+
+.form .search-icon{
+position: absolute;
+    right: 25px;
+    top: 8px;
+}
+
+.search-icon{
+    color: rgb(157, 157, 157);
+    
+}
+
+
+.last {
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 15px;
+}
+
+.account,
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
